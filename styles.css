@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: "roboto";
+}
+	
+body{
+    background-color: #eaeaea;
+    
+}
+
+.Header{
+    background-color: #ffffff;
+    width: 100%;
+   padding: 10px 0px 10px 0px;
+   justify-content: center;
+   display: flex;
+   margin-bottom: 50px;
+}
+
+.DivBody{
+   margin: 0px 500px 0px 500px;
+
+}
+
+.Firstfeed, .Secondfeed, .Thirdfeed{
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    
+    
+}
+
+
+
+.text{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+img{
+    width: 480px;
+    height: 500px;
+    
+}
+
+.text2{
+    padding: 10px;
+}
+
+section p:only-of-type{
+    
+    color: rgba(0, 0, 0, 50%);
+}
+
